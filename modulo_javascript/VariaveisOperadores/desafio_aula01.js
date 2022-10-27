@@ -13,6 +13,6 @@ let consumoCarro = distancia/qtdKmLitro;
 let gastoTotal = consumoCarro * precoCombustivel;
 
 console.log("Você precisará de: " + consumoCarro + " litros de combustivel")
-console.log("O valor de combustivel gasto na viagem será de " + gastoTotal)
+console.log("O valor de combustivel gasto na viagem será de " + gastoTotal.toFixed(2) + " litros de combustivel")
 
 
